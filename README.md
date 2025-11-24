@@ -1,97 +1,155 @@
-AppSheet Operations Automation System (2025)
+# 📱 AppSheet Operations Automation System (2025)
 
-Tools: AppSheet, Google Workspace, AppSheet Bots, GenAI Automation, Google Chat Integrations
-Role: No-Code Developer / Automation Specialist
-Status: MVP Completed, Advanced Integration In Progress
+A no-code workflow automation system built with **AppSheet**, **Google Workspace**, and **GenAI-based automation tools**.  
+Designed to optimize operational processes, reduce manual work, and enable real-time communication inside logistics and warehouse teams.
 
-Overview
+This project showcases practical **AppSheet development**, **workflow automation**, **process mapping**, and early **Google Chat integration** using webhooks and AppSheet Bots.
 
-Developed an AppSheet-based automation system designed to streamline operational workflows, reduce manual work, and improve communication across logistics and warehouse teams.
-The project demonstrates my ability to build functional no-code applications, automate processes, and integrate AppSheet with external tools such as Google Chat bots.
+---
 
-🎯 Project Goals
+## 🚀 Overview
 
-✔ Reduce manual data entry
-✔ Automate repetitive operational tasks
-✔ Improve reporting accuracy
-✔ Enable real-time communication through Google Chat
-✔ Demonstrate practical no-code automation for business operations
+The **Operations Automation System** is an AppSheet application created to streamline daily workflows such as:
 
-⚙️ Key Features I Built
-1. Operational Workflow App (Core MVP)
+- task management  
+- checklists and routine processes  
+- operational reporting  
+- supervisor dashboards  
+- workflow tracking  
+- automated alerts and status updates  
 
-Created a structured AppSheet app for daily operations: task lists, status tracking, notes, checklists.
+The app is built as a **functional MVP**, with ongoing work on advanced automation and Chat integrations.
 
-Implemented data validation, rules, and conditional visibility.
+---
 
-Enabled supervisors to track tasks and worker activity more transparently.
+## 🔧 Tech Stack
 
-2. Automated Notifications via AppSheet Bots
+- **AppSheet (Google Cloud)**  
+- **AppSheet Bots / Automation rules**  
+- **Google Sheets (database + reporting)**  
+- **Google Workspace scripting**  
+- **Webhook automation**  
+- **Google Chat bot integration (in progress)**  
+- **GenAI tools** for workflow analysis & optimization  
 
-Implemented AppSheet Bots to automate:
+---
 
-task status change alerts
+## 🎯 Core Features
 
-deadline reminders
+### **1. Operational Workflow App (MVP)**
+- Task creation & assignment  
+- Status tracking with conditional logic  
+- Daily checklists and routine workflows  
+- Inline validation and access rules  
+- Views tailored for roles (operator, supervisor)
 
-escalation messages
+### **2. Automated Process Logic (AppSheet Bots)**
+- Automatic alerts on status changes  
+- Deadline reminders  
+- Daily summary automation  
+- Escalation messages for overdue tasks  
+- Rule-based workflow sequencing  
 
-daily summary notifications
+### **3. Google Workspace Integration**
+- Automated syncing into Google Sheets  
+- Enhanced reporting via formulas  
+- Centralized database for analytics  
+- Exportable logs for audits
 
-Configured triggers based on time and user actions.
+### **4. Supervisor Dashboard**
+- Overview of current operations  
+- Bottleneck analysis  
+- Task throughput insights  
+- Productivity metrics  
 
-Designed automation logic for operational scenarios.
+---
 
-3. Integration with Google Workspace
+## 🛠️ Advanced Development (In Progress)
 
-Set up automated syncing into Google Sheets for reporting.
+### **Google Chat Integration**
+Working on connecting AppSheet Bots to **Google Chat** via secure webhooks to enable:
 
-Integrated spreadsheet formulas to enrich data.
+- instant operational alerts  
+- automated updates in team chatrooms  
+- event-based notifications  
+- message formatting via JSON payloads  
 
-Created dashboards for analysis.
+This part is partially built and tested in Coursera’s temporary Cloud environment.  
+The full integration will be completed in a standalone Google Cloud project.
 
-⭐ Advanced Work (In Progress): Google Chat Integration
+---
 
-You reached the advanced part already — and THAT is powerful.
+## 🧠 Architecture Diagram
 
-Here is how to describe it professionally:
+[ Operator / Supervisor ]
+↓
+AppSheet UI
+↓
+AppSheet Bots Engine
+/
+Google Sheets Webhooks → Google Chat (in progress)
+↓
+Reporting Layer (Dashboards / Analytics)
 
-4. Google Chat Bot Integration (In Progress)
+yaml
+Копировать код
 
-Began implementing AppSheet → Google Chat integration to send real-time alerts directly into team chatrooms.
+---
 
-Configured secure webhook connections from AppSheet Bots to Chat.
+## 📊 Expected Business Impact
 
-Set up structured JSON payloads for message formatting.
+Even as an MVP, the system is designed to deliver:
 
-Tested event-based triggers (e.g., “new task”, “task overdue”).
+- **30–40% reduction** in manual updates and reporting  
+- **Faster communication** between operators & supervisors  
+- **Higher data accuracy** with automated validation  
+- **Improved visibility** across workflows  
+- **Fewer errors** in operational routines  
 
-Encountered lab time limitations (Coursera environment), planning to finalize integration in a standalone Google Cloud environment.
+---
 
-This still counts as real technical progress — recruiters value this highly.
+## 🧩 Why This Project Matters
 
-📊 Business Impact (Projected)
+This project demonstrates my ability to:
 
-Even if you haven’t deployed it in a real company, we express “modeled improvements”:
+- build real no-code applications  
+- design workflow logic  
+- understand operational bottlenecks  
+- turn problems into automated solutions  
+- apply product-thinking mindset  
+- work across automation, data, and user experience  
+- progress toward **AI Product Management** through hands-on automation  
 
-Up to 30–40% reduction in repetitive manual updates
+---
 
-Faster cross-team communication via Chat alerts
+## 🛣️ Roadmap
 
-Higher data accuracy due to automated validation
+- [x] Build operational MVP  
+- [x] Implement AppSheet Bots  
+- [x] Create Google Sheets reporting layer  
+- [ ] Complete Google Chat integration  
+- [ ] Add AI-powered process recommendations  
+- [ ] Add Supervisor GenAI Assistant  
+- [ ] Deploy production-ready version  
+- [ ] Publish demo video  
 
-Clearer workflow visibility across supervisors and operators
+---
 
-📌 What This Project Demonstrates About Me
+## 📎 Media & Screenshots (Coming Soon)
 
-Practical no-code development skills
+You can upload here:
 
-Deep understanding of operational workflows
+- UI screenshots  
+- Bot workflow screenshots  
+- Google Chat message tests  
+- Dashboard previews  
 
-Ability to build automation logic
+---
 
-Early integration experience (AppSheet Bots + Google Chat)
+## 📬 Contact
 
-Product-thinking: start simple → iterate → add integrations
+If you’d like to discuss the system, automation workflows, or no-code solutions:
 
-Strong progress toward AI Product Manager via automation
+**Andrejs Verhovods**  
+AI Automation & No-Code Specialist  
+LinkedIn: *your profile link*  
